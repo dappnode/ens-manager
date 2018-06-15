@@ -6,7 +6,7 @@ import Notifications from './components/Notifications'
 
 import createHistory from 'history/createBrowserHistory'
 
-import ReactGA from 'react-ga';
+//import ReactGA from 'react-ga';
 
 import { db } from 'redaxe'
 import {
@@ -14,12 +14,12 @@ import {
   Route
 } from 'react-router-dom'
 
-ReactGA.initialize('UA-101611202-1');
+//ReactGA.initialize('UA-101611202-1');
 
 const history = createHistory()
 history.listen((location, action) => {
-  ReactGA.set({ page: location.pathname });
-  ReactGA.pageview(location.pathname);
+//  ReactGA.set({ page: location.pathname });
+//  ReactGA.pageview(location.pathname);
 });
 
 const Main = () => {
