@@ -2,6 +2,7 @@
   "name": "ens-manager",
   "version": "0.0.1",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "classnames": "^2.2.5",
     "ethereum-ens": "^0.7.1",

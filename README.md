@@ -1,4 +1,6 @@
-# ENS Manager
+# ENS Manager Decentralized version for DAppNode
+
+This fork is deployed on IPFS: /ipfs/QmP9uPF55kkskZuYuAVgtVb9snkxGQr6z5BvujiQBrH93E
 
 ## Development
 

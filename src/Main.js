@@ -10,7 +10,7 @@ import createHistory from 'history/createBrowserHistory'
 
 import { db } from 'redaxe'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route
 } from 'react-router-dom'
 

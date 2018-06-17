@@ -23,7 +23,7 @@ function setupWeb3(){
       })
     } else {
       //Localnode
-      let url = "http://localhost:8545"
+      let url = "http://my.ethchain.dnp.dappnode.eth:8545"
 
       fetch(url)
         .then(res => {
@@ -38,7 +38,7 @@ function setupWeb3(){
           } else {
             //Infura
             console.log('The endpoint is not active. Falling back to Infura readOnly mode')
-            url = 'https://ropsten.infura.io/BW6Y98TxAjFjImkmjVnG'
+            url = 'http://my.ropsten.dnp.dappnode.eth:8545'
             readOnly = true
             updateReadOnly(true)
           }
